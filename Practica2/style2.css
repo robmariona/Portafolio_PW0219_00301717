@@ -1,0 +1,140 @@
+/***************************************************
+    ** Sin modificar el HTML dado, aplique todas las **
+    ** reglas solicitadas                            **
+    ** PAra todos los selectores asegurar que los    **
+    ** botones tengan la clase btn                   **
+    ***************************************************/
+
+    /*
+        Sección General
+        Para los botones con la clase btn:
+            -Borde solido de 1px, color trasparente
+            -Radio de borde 0.3em
+            -Sin sombra
+            -padding interno de 1em:
+            -opacidad de 0.8
+            -Trasformar automáticamente el texto a mayúscula
+            
+        Opcional:
+            -Aplicar en hover opacidad al 1.0
+    */
+    body .btn{   
+        border: transparent 1px solid;
+        border-radius: 0.3em;
+        padding: 1em;
+        opacity: 0.8;
+        text-transform: uppercase;
+
+    }
+
+    body .btn:hover{
+        opacity: 1;
+    }
+
+    
+
+
+    /*
+        Sección Tamaños
+        
+        Para los botones con clases btn y small:
+            -Tamaño de fuente de 0.7em
+        
+        Para los botones con clases btn y big:
+            -Tamaño de fuente de 1.1em
+    */
+    section:first-of-type .btn.small{
+        font-size: 0.7em;
+
+    }
+    section:first-of-type .btn.big{
+        font-size: 1.1em;
+    }
+
+    /*
+        Sección Colores
+
+        Para todos los botones ccon clases referentes a colores:
+            -black: Fondo #1A237E; color de texto blanco
+            -green: Fondo #4CAF50; color de texto blanco
+            -sky: Fondo #00BCD4; color de texto blanco
+            -purple: Fondo #673AB7; color de texto blanco
+    */
+    section:nth-of-type(2) .btn.black{
+        background-color: #1A237E;
+        color: white;
+
+    }
+    section:nth-of-type(2) .btn.green{
+        background-color: #4CAF50;
+        color: white;
+        
+    }
+    section:nth-of-type(2) .btn.sky{
+        background-color: #00BCD4;
+        color: white;
+    }
+    section:nth-of-type(2) .btn.purple{
+        background-color: #673AB7;
+        color: white;
+    }
+
+    /*
+        Sección Bordes
+
+        Para los botones btn con la clase border, en general;
+            -Fondo transparente
+            -Color de borde y texto -> #1A237E
+
+        Para los botones btn border que impliquen colores:
+            -green: Color de borde y texto -> #4CAF50
+            -sky: Color de borde y texto -> #00BCD4
+            -purple: Color de borde y texto -> #673AB7
+    */
+    section:nth-of-type(3) .btn.border{
+        background-color: transparent;
+        border: #1a237e 1px solid;
+        color: #1a237e;  
+    }
+    section:nth-of-type(3) .btn.border.green{
+        border: #4CAF50 1px solid;
+        color: #4CAF50;
+    }
+    section:nth-of-type(3) .btn.border.sky{
+        border: #00BCD4 1px solid;
+        color: #00BCD4;
+    }
+    section:nth-of-type(3) .btn.border.purple{
+        border: #673AB7 1px solid;
+        color: #673AB7;
+    }
+
+    .btn.green.big{
+        font-size: 1.1em;
+        background-color: #4CAF50;
+        color: white;
+
+    }
+
+    .btn.border.purple.small{
+        font-size: 0.7em;
+        background-color: #673AB7;
+        color: white;
+
+    }
+    .btn.border.big{
+        font-size: 1.1em;
+        background-color: transparent;
+        border: #1a237e 1px solid;
+        color: #1a237e;;
+
+    }
+    .btn.small.sky{
+        font-size: 0.7em;
+        background-color: #00BCD4;
+        color: white;
+
+    }
+
+
+
