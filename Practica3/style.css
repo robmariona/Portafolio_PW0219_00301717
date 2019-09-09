@@ -1,0 +1,29 @@
+#example3>.one{
+    background: grey;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+#example3>.two{
+    background: hotpink;
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+#example3>.three{
+    background: indianred;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#example3>.four{
+    background: tomato;
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+
+#example3>.five{
+    background: skyblue;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
